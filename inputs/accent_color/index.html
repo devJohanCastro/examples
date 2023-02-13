@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cambiar color del cursor</title>
+	<link rel="stylesheet" href="./style.css">
+	<style>
+		*{ margin: 0;bottom: 0;padding: 0; }
+		body{ background: #212121; }
+		.content{ display: grid; place-items: center; height: 100vh; width: 100%; }
+		.inner-content{ text-align: center; }
+		input{ display: inline; font-size: 38px; border: 1px solid #999; border-radius: 3px; min-height: 30px; padding: 5px; width: 45%; margin-bottom: 20px; }
+		input[type=range]{ width: 90%; }
+	</style>
+</head>
+<body>
+	
+	<div class="content">
+		<div class="inner-content">
+			<input type="radio" checked>
+			<input type="checkbox">
+			<input type="range" min="0" max="100" value="33">
+		</div>
+	</div>
+
+</body>
+</html>
